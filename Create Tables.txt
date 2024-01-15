@@ -1,7 +1,0 @@
-CREATE TABLE BankTrans(TransID VARCHAR2(10) PRIMARY KEY, AcctNo NUMBER(10),
-			OldBal NUMBER(9,2), TransType VARCHAR2(10), TransAmt NUMBER(9,2),
-			NewBal NUMBER(9,2), TransStat VARCHAR2(10));
-
-CREATE TABLE ValidTrans(TransID VARCHAR2(10), TransType VARCHAR2(10), TransAmt NUMBER(9,2), Validity VARCHAR2(10));
-
-CREATE TABLE InValidTrans(TransID VARCHAR2(10), TransType VARCHAR2(10), TransAmt NUMBER(9,2), Validity VARCHAR2(10));
